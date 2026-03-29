@@ -2,84 +2,27 @@
 
 ##  Overview
 
-This project presents a data modeling and analytics solution for a healthcare dataset.
-
-The goal is to analyze operational performance, revenue generation, and user behavior.
+This project was developed as part of a BI Engineer technical assesment.
 
 ---
 
-##  Data Model
+##  Project Structure
 
-The data was structured using a star schema approach:
+The repository is organized into the following componentes:
 
-* **Fact tables:**
+* **sql_models:**
 
-  * appointments
-  * transactions
-  * events
+  * Contains SQL models following a layered approach (staging, intermediate and mart) - PART 2
 
-* **Dimension tables:**
+* **Part2 - Mart Layer:**
 
-  * users
-  * providers
-  * date
-  * location
-
-This structure enables consistent analysis across multiple business domains.
-
----
-
-##  Metrics
+* **Metrics:**
 
 Key metrics analyzed in this project:
 
-* Total appointments
-* Completion rate
-* Cancellation rate
-* Total revenue
-* Revenue per appointment
-* Active users
-* Revenue by provider
-
 Detailed metric definitions are available in:
- `metric_definitions.xlsx`
+ `metric definitions.xlsx`
 
----
+* **Dashboard:**
 
-##  SQL Models
-
-The SQL models include:
-
-* Data transformation and joins
-* KPI calculations
-* Aggregations for reporting
-
-All SQL logic is available in the `/sql_models` folder.
-
----
-
-##  Dashboard
-
-The dashboard focuses on:
-
-* Operational performance
-* Financial performance
-* User engagement
-
-Dashboard mockups are available in the `/dashboard` folder.
-
----
-
-##  Business Explanation
-
-A stakeholder-oriented explanation of the solution is available in:
-
- `/explanation/stakeholder_explanation.md`
-
----
-
-##  Conclusion
-
-This solution enables data-driven decision making by providing a structured and scalable analytics model.
-
-It supports monitoring of key operational and financial metrics while allowing flexible analysis across different dimensions.
+* Contains the dashboards mockup designed to present key business insights in a executive-friendly format.
