@@ -1,0 +1,25 @@
+SELECT
+	s.subscriptions_id,
+	s.customer_id,
+	s.product_id,
+	s.plan_name,
+	s.monthly_price,
+	s.start_date,
+	s.end_date,
+	c.country,
+	CASE --subscription starus logic
+	   WHEN s.start_date > CURRENT_DATE THEN 'not started'
+	   WHEN s.end_date IS NULL AND s.start_date <= CURRENT_DATE THEN 'active'
+           WHEN s.end_date >= CURRENT_DATE THEN 'active'
+           WHEN s.end_date < CURRENT_DATE THEN 'churned'
+	   ELSE 'unknown'
+       END AS subscription_status_final
+       CASE --active flag
+           WHEN (s.end_date IS NULL OR s.end_date >= CURRENT_DATE)
+	       AND s.start_date <= CURRENT_DATE
+           THEN 1
+           ELSE 0
+	END AS is_active_subscription
+FROM stg_subscriptions s
+LEFT JOIN stg_customers c
+	ON s.customer_id = c.customer_id;
