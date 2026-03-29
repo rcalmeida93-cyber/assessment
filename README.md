@@ -26,3 +26,6 @@ Detailed metric definitions are available in:
 * **Dashboard:**
 
 * Contains the dashboards mockup designed to present key business insights in a executive-friendly format.
+
+* **Explanation:**
+* Contains dashboard stakeholder explanation
