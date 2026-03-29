@@ -42,7 +42,7 @@ Key metrics analyzed in this project:
 * Revenue by provider
 
 Detailed metric definitions are available in:
-👉 `metric_definitions.xlsx`
+ `metric_definitions.xlsx`
 
 ---
 
@@ -74,7 +74,7 @@ Dashboard mockups are available in the `/dashboard` folder.
 
 A stakeholder-oriented explanation of the solution is available in:
 
-👉 `/explanation/stakeholder_explanation.md`
+ `/explanation/stakeholder_explanation.md`
 
 ---
 
