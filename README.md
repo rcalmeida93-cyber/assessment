@@ -1,12 +1,12 @@
 # BI Engineer Assessment
 
-## 📌 Overview
+## Overview
 
 This project presents a data modeling and analytics solution for a healthcare dataset.
 
 ---
 
-## 🧠 Data Model
+## Data Model
 
 The data was structured using a star schema approach:
 
@@ -15,7 +15,7 @@ The data was structured using a star schema approach:
 
 ---
 
-## 📊 Metrics
+## Metrics
 
 Key metrics:
 
@@ -26,7 +26,7 @@ Key metrics:
 
 ---
 
-## 💻 SQL Models
+## SQL Models
 
 SQL logic includes:
 
@@ -36,19 +36,19 @@ SQL logic includes:
 
 ---
 
-## 📈 Dashboard
+## Dashboard
 
 A dashboard mockup is included in the project.
 
 ---
 
-## 📝 Documentation
+##  Documentation
 
 * Metric definitions (Excel file)
 * Stakeholder explanation
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This solution supports operational and financial analysis.
